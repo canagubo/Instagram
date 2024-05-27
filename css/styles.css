@@ -1,0 +1,422 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.puntero:hover {
+    cursor: pointer;
+}
+
+/* -----------------------CAJA 1-------------------------- */
+
+.caja1 {
+    height: 100vh;
+    position: fixed;
+    outline: 1px solid rgb(220, 220, 220);
+}
+
+.iconosMenu {
+    height: 70px;
+}
+
+.iconosMenu :hover {
+    background-color: rgb(240, 240, 240);
+    border-radius: 10%;
+    transition: 0.5s;
+}
+
+.logoInstagram {
+    padding: 15% 0 10% 10%;
+    width: 60%;
+
+}
+
+.logoInstagram2 {
+    width: 50px;
+    justify-content: right;
+}
+
+
+/* -----------------------CAJA 2-------------------------- */
+
+.caja2 {
+    height: 2670px;
+    margin-left: auto;
+    margin-top: auto;
+    padding-top: 1%;
+/*     background-color: lightgoldenrodyellow; */
+}
+
+
+/* -----------------------BUSQUEDA CELULAR-------------------------- */
+
+.cajaBusquedaCelular {
+    background-color: white;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    height: 8%;
+}
+
+.busquedaCorazon {
+    padding-right: 8%;
+}
+
+
+/* -----------------------STORIES-------------------------- */
+
+.caja6 {
+    height: 12vh;
+}
+
+/* .storie {
+    width: 60px;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-right: 70px;
+    font-size: 12px;
+    justify-content: center;
+} */
+
+ .storie ul{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+ }
+
+ .storie ul li{
+    font-size: 12px;
+    padding: 1% 8% 0 0;
+ }
+
+.nav-item {
+   /*  background-color: aquamarine; */
+    float: left;
+}
+
+
+/* -----------------------POST CARRUSEL-------------------------- */
+
+.row .carrusel {
+    margin-top: auto;
+}
+
+/* -----------------------POST-------------------------- */
+
+.caja7 {
+    height: 1000px;
+    padding-top: 2%;
+}
+
+.caja8 {
+    height: 1000px;
+}
+
+.caja9 {
+    height: 1000px;
+    margin-top: auto;
+}
+
+.imagenCuenta {
+    padding-top: 10px;
+}
+
+.nombreCuenta {
+    padding: 20px 0 0 10px;
+    font-weight: bold;
+}
+
+.verificadoCuenta {
+    padding: 20px 0 0 5px;
+
+}
+
+.horaCuenta {
+    padding: 20px 0 0 10px;
+    font-weight: lighter;
+    height: 50px;
+    color: gray;
+}
+
+.puntosCuenta {
+    font-size:larger;
+    padding: 2% 3% 0 0;
+    text-align: right;
+
+}
+
+.imagenPost {
+    padding-top: 5px;
+}
+
+.reaccionesPost {
+    text-decoration: none;
+    padding: 10px 0 0 0;
+}
+
+ul li {
+    width: 30px;
+    float: left;
+    list-style-type: none;
+    margin: 0 1% 0 1%;
+}
+
+ul li:hover {
+    cursor: pointer;
+}
+
+.guardarPost {
+    padding: 0 20px 0 0;
+    float: right;
+}
+
+
+.guardarPost:hover {
+    cursor: pointer;
+}
+
+.likesPost {
+    width: 100%;
+    height: 30px;
+    font-weight: bold;
+    font-size: small;
+}
+
+.cuentaPost {
+    width: 100%;
+    height: 50%px;
+}
+
+.hashtagsPost {
+    color: rgb(0, 140, 255);
+
+}
+
+.comentarioPost {
+    color: gray;
+    height: 20px;
+    font-size: 90%;
+}
+
+.comentarioPost2 {
+    color: gray;
+    height: 20px;
+    font-size: 90%;
+}
+
+/* -----------------------MENÚ INFERIOR CELULAR-------------------------- */
+
+.menuInferiorCelular {
+    height: 50px;
+}
+
+.menuInferiorCelular ul li {
+    padding: 5px 60px 0 0;
+}
+
+
+/* -----------------------CAJA 3-------------------------- */
+
+.caja3 {
+    height: 100vh;
+}
+
+/* -----------------------SUGERENCIAS-------------------------- */
+
+.caja4 {
+    height: 75px;
+}
+
+.caja5 {
+    height: 40px;
+    align-items: center;
+}
+
+.caja10 {
+    height: 15%;
+}
+
+.miPerfilSugerencias {
+    padding: 30px 0 0 10px;
+}
+
+.nombreSugerencias2 {
+
+    width: 10%;
+    height: 35px;
+    font-weight: 500;
+    padding-top: 10px;
+}
+
+.statusSugerencias2 {
+
+    width: 70%;
+    color: gray;
+    font-size: small;
+}
+
+.cambiarSugerencias {
+    background-color: yellowgreen;
+    width: 30%;
+    font-size: small;
+    font-weight: bold;
+    color: rgb(0, 140, 255);
+    align-content: center;
+}
+
+.fotoPerfilSugerencias {
+    width: 70px;
+    padding: 15px;
+}
+
+.fotoSugerencias {
+    width: 70px;
+    padding: 15px;
+}
+
+.sugerencias {
+    width: 200px;
+}
+
+.nombreSugerencias {
+    width: 120px;
+    height: 35px;
+    font-weight: 500;
+    padding-top: 10px;
+}
+
+.statusSugerencias {
+    width: 120px;
+    color: gray;
+    font-size: small;
+}
+
+.seguirSugerencias {
+    width: 8%;
+    font-size: small;
+    font-weight: bold;
+    color: rgb(0, 140, 255);
+    text-align: right;
+}
+
+.textoSugerencias {
+    color: gray;
+    width: 200px;
+
+}
+
+.textoSugerencias2 {
+    width: 30%;
+    color: black;
+    font-size: smaller;
+    text-align: right;
+    flex-wrap: wrap;
+}
+
+.textoInformacion {
+    padding-top: 50px;
+    font-weight: lighter;
+    font-size: small;
+    color: gray;
+
+}
+
+.textoInformacion2 {
+    font-weight: lighter;
+    font-size: small;
+    color: gray;
+    
+}
+
+
+/* -----------------------RESPONSIVE-------------------------- */
+
+
+@media (min-width: 150px) and (max-width: 1199px)  {
+    .ocultarCaja3 {
+        display: none;
+    }
+}
+
+@media (min-width: 150px) and (max-width: 1199px)  {
+    .ocultarTextoMenu {
+        display: none;
+    }
+
+    .iconosMenu {
+        height:60px;
+    }
+
+    .ocultarLogoInstagram {
+        display: none;
+    }
+}
+
+
+@media only screen and (min-width: 1199px) {
+    .ocultarLogoInstagram2 {
+        display: none;
+     }
+}
+    
+    @media only screen and (max-width: 880px) {
+        .ocultarLogoInstagram2 {
+            display: block;
+        }
+}
+
+@media only screen and (min-width: 768px) {
+        .cajaBusquedaCelular {
+            display: none;
+         }
+}
+
+@media only screen and (min-width: 768px) {
+    .ocultarMenuInferiorCelular {
+        display: none;
+     }
+}
+
+@media only screen and (max-width: 768px) {
+    .caja6 {
+        margin-top: 5%;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .caja6 {
+        margin-top: 13%;
+    }
+}
+
+@media (min-width: 150px) and (max-width: 768px)  {
+    .ocultarStorie1 {
+        display: none;
+    }
+
+    .storie ul li{
+        font-size: 12px;
+        padding: 0 15% 0 0;
+     }
+}
+
+@media (max-width: 768px) {
+    .ocultarCaja1 {
+        display: none;
+    }
+    .ocultarCaja8 {
+        display: none;
+    }
+
+}
+
+@media (min-width: 769px) and (max-width: 6000px)  {
+    .ocultarContenedor {
+        display: none;
+    }
+}
